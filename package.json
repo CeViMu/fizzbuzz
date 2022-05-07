@@ -1,0 +1,19 @@
+{
+  "name": "fizzbuz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeViMu/fizzbuzz.git"
+  },
+  "author": "Cecilia Muñoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CeViMu/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/CeViMu/fizzbuzz#readme"
+}
