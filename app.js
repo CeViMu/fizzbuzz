@@ -11,9 +11,6 @@ const explorers = JSON.parse(rawdata); //trasnform the text(rawdata) into json f
 const explorersInNode = explorers.filter((explorer) => explorer.mission == "node");
 //console.log(explorersInNode.length)
 
-
-
-
 // Part4: Get the explorer's usernames in Node
 const explorersInNodeToGetUsernames = explorers.filter((explorer) => explorer.mission == "node");
 const usernamesInNode = explorersInNodeToGetUsernames.map((explorer) => explorer.githubUsername);
@@ -67,6 +64,6 @@ const assignFizzBuzzTrick = function(explorer){
 };
 
 const explorersInNodeAndFizzBuzzTrick = explorersInNode.map((explorer) => assignFizzBuzzTrick(explorer));
-console.log(explorersInNodeAndFizzBuzzTrick)
+console.log(explorersInNodeAndFizzBuzzTrick);
 
 // Part 8: Get a list of the explorers in node, if the score is divisible by 5 and 3, set the property trick and the value FIZZBUZZ, if is just divisible by 5 set the property trcik and the value BUZZ, if is just divisible by 3 set the property trick and the value FIZZ, otherwise set the property trick and the score value. TODO
