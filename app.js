@@ -11,6 +11,9 @@ const explorers = JSON.parse(rawdata); //trasnform the text(rawdata) into json f
 const explorersInNode = explorers.filter((explorer) => explorer.mission == "node");
 //console.log(explorersInNode.length)
 
+
+
+
 // Part4: Get the explorer's usernames in Node
 const explorersInNodeToGetUsernames = explorers.filter((explorer) => explorer.mission == "node");
 const usernamesInNode = explorersInNodeToGetUsernames.map((explorer) => explorer.githubUsername);
