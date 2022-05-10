@@ -16,4 +16,9 @@ describe("Unit test", () =>{
         const explorersByMission = ExplorerController.getExplorersAmonutByMission("node");
         expect(explorersByMission).toBe(10);
     })
+
+    test("4) Test para validación fizzbuzz por", () =>{
+        const validation = ExplorerController.applyValidationInNumber(15);
+        expect(validation).toBe("FIZZBUZZ");
+    })
 })
