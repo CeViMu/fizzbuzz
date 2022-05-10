@@ -21,4 +21,9 @@ describe("Unit tests", () =>{
         const explorer4 = FizzbuzzService.applyValidationInExplorer(explorers[3]);
         expect(explorer4.trick).toBe("FIZZBUZZ");
     } );
+
+    test("2) Test para validar score con number", () =>{
+        const explorer1 = FizzbuzzService.applyValidationInNumber(explorers[0].score);
+        expect(explorer1).toBe(1);
+    });
 });
