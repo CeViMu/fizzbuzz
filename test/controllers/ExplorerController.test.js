@@ -11,4 +11,9 @@ describe("Unit test", () =>{
         expect(usernames).toEqual(["ajolonauta1", "ajolonauta2","ajolonauta3", "ajolonauta4", "ajolonauta5",
         "ajolonauta11", "ajolonauta12", "ajolonauta13", "ajolonauta14", "ajolonauta15"]);
     }) 
+
+    test("3) Test para obtener la cantidad de explorers en una mision", () =>{
+        const explorersByMission = ExplorerController.getExplorersAmonutByMission("node");
+        expect(explorersByMission).toBe(10);
+    })
 })
